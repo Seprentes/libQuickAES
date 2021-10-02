@@ -37,7 +37,7 @@ You need to install Visual Studio with "Desktop Development with C++", "C++ CMak
 
 ```
 git clone https://github.com/lumbricusterrestris/libQuickAES
-cd libQuikAES
+cd libQuickAES
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release -GNinja ..
 ninja
