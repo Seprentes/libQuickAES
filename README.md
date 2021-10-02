@@ -52,7 +52,7 @@ ninja install
 #### With MSYS2 MinGW
 Start MSYS2 MinGW 64 bit. And run following command for installing dependencies of libQucikAES++:
 ```
-pacman -S mingw-w64-x86_64-cmake mingw-w64-x86_64-ninja mingw-w64-x86_64-gcc
+pacman -S mingw-w64-x86_64-cmake mingw-w64-x86_64-ninja git
 ```
 Then, run following command for building:
 
