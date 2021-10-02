@@ -1,0 +1,13 @@
+#ifndef QUICKAESOPTIONS_HPP
+#define QUICKAESOPTIONS_HPP
+
+#cmakedefine DECRYPTION_ENABLE
+
+#cmakedefine ECB_ENABLE
+#cmakedefine CBC_ENABLE
+#cmakedefine OFB_ENABLE
+#cmakedefine CTR_ENABLE
+#cmakedefine CFB_ENABLE
+#cmakedefine CFB8_ENABLE
+
+#endif
