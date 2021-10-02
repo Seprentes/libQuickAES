@@ -10,27 +10,27 @@ Initializes library with size key size. Key size must be 128, 192 or 256.
 
 Changes key size.
 
-`void QuickAES::encryptData(unsigned char \*data, unsigned char \*key)`
+`void QuickAES::encryptData(unsigned char *data, unsigned char *key)`
 
 Encrypts 128 bit data with AES.
 
-`void QuickAES::decryptData(unsigned char \*data, unsigned char \*key)`
+`void QuickAES::decryptData(unsigned char *data, unsigned char *key)`
 
 Decrypts 128 bit data with AES.
 
-`void QuickAES::encryptECB(unsigned char \*data, unsigned char \*key, unsigned char \*result, unsigned int size)`
+`void QuickAES::encryptECB(unsigned char *data, unsigned char *key, unsigned char *result, unsigned int size)`
 
 Encrpyts data with ECB block cipher mode of operation.
 
-`void QuickAES::encryptECB(unsigned char \*data, unsigned char \*key, unsigned char \*result, unsigned int size)`
+`void QuickAES::encryptECB(unsigned char *data, unsigned char *key, unsigned char *result, unsigned int size)`
 
 Decrpyts data with ECB block cipher mode of operation.
 
-`void QucikAES::encryptCBC(unsigned char \*data, unsigned char \*key, unsigned char \*result, unsigned int size, unsigned char \*iv)`
+`void QucikAES::encryptCBC(unsigned char *data, unsigned char *key, unsigned char *result, unsigned int size, unsigned char *iv)`
 
 Encrypts data with CBC block cipher mode of operation.
 
-`void QucikAES::decryptCBC(unsigned char \*data, unsigned char \*key, unsigned char \*result, unsigned int size, unsigned char \*iv)`
+`void QucikAES::decryptCBC(unsigned char *data, unsigned char key, unsigned char *result, unsigned int size, unsigned char *iv)`
 
 Decrypts data with CBC block cipher mode of operation.
 
