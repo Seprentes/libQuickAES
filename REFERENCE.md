@@ -6,7 +6,7 @@ _________________________________________
 
 Initializes library with size key size. Key size must be 128, 192 or 256.
 
-`void QucikAES::setKeySize(unsigned int size)'
+`void QucikAES::setKeySize(unsigned int size)`
 
 Changes key size.
 
