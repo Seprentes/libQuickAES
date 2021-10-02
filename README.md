@@ -18,8 +18,8 @@ block cipher modes of operation.
 You need to install CMake and a C++ compiler like gcc for building this library. Run following commands for building libQuickAES++
 
 ```
-git clone https://github.com/lumbricusterrestris/libQuickAES++
-cd libQuickAES++
+git clone https://github.com/lumbricusterrestris/libQuickAES
+cd libQuickAES
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make
@@ -36,8 +36,8 @@ make install
 You need to install Visual Studio with "Desktop Development with C++", "C++ CMake Tools for Windows" and git. First, Open x64 Native Tools Command Promt For Visual Studio XXX with administrator privileges. Then run following commands for building:
 
 ```
-git clone https://github.com/lumbricusterrestris/libQuickAES++
-cd libQucikAES++
+git clone https://github.com/lumbricusterrestris/libQuickAES
+cd libQuikAES
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release -GNinja ..
 ninja
@@ -57,8 +57,8 @@ pacman -S mingw-w64-x86_64-cmake mingw-w64-x86_64-ninja git
 Then, run following command for building:
 
 ```
-git clone https://github.com/lumbricusterrestris/libQuickAES++
-cd libQucikAES++
+git clone https://github.com/lumbricusterrestris/libQuickAES
+cd libQuickAES
 mkdir build && cd build
 cmake -DCMAKE_BUILD_TYPE=Release -GNinja ..
 ninja
